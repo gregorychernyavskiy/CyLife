@@ -1,6 +1,6 @@
 # CyLife
 
-CyLife is a comprehensive platform designed to enhance collaboration and communication within clubs and events at educational institutions. The project aims to create a dynamic and user-friendly ecosystem for students and staff to interact, share, and manage activities efficiently.
+CyLife is your all-in-one platform to bring students and staff together. Built with passion and a vision for better campus life, CyLife makes it easy for clubs to thrive and events to connect people. Whether you're organizing, chatting, or sharing, CyLife is here to make every interaction seamless and fun.
 
 ## Features
 
@@ -56,11 +56,31 @@ CyLife is a comprehensive platform designed to enhance collaboration and communi
    mvn clean install
    ```
    This will create the `.jar` file in the `target` folder.
-4. Run the application from the `target` folder:
+4. Securely copy the `.jar` file to the server using `scp`:
    ```bash
-   java -jar target/Backend-0.0.1-SNAPSHOT.jar
+   scp target/Backend-0.0.1-SNAPSHOT.jar your_username@coms-3090-065.class.las.iastate.edu:~
    ```
-5. Test the application on your local server or deployment server by accessing the appropriate endpoints.
+5. Access the server via SSH to launch the application:
+   ```bash
+   ssh your_username@coms-3090-065.class.las.iastate.edu
+   ```
+   Navigate to the directory where the `.jar` file was copied, and run the application:
+   ```bash
+   java -jar Backend-0.0.1-SNAPSHOT.jar
+   ```
+6. Test the application on the server or local deployment to ensure both frontend and backend connectivity.
+
+## POM.xml Configuration
+The `pom.xml` file is configured to use Java 17 and includes dependencies for:
+- **Spring Boot**: Core framework for backend development.
+- **MySQL Connector**: For database integration.
+- **Spring WebSocket**: For real-time communication.
+- **Spring Data JPA**: For object-relational mapping (ORM).
+- **OpenAPI (SpringDoc)**: To generate API documentation.
+- **JUnit and Rest-Assured**: For testing.
+- **Lombok**: To simplify Java boilerplate code.
+
+The `spring-boot-maven-plugin` is included for packaging the application as a `.jar` file, ensuring ease of deployment and compatibility with servers.
 
 ## Development Workflow
 
@@ -77,4 +97,7 @@ CyLife is a comprehensive platform designed to enhance collaboration and communi
 - Support advanced analytics for clubs and events.
 
 ## Contributors
-- **Gregory Chernyavskiy, Dhvani Mistry, Seth Clover and Charlie Wood.**
+- **Gregory Chernyavskiy** and team.
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
