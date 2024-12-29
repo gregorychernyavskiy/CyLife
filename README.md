@@ -1,6 +1,6 @@
 # CyLife
 
-CyLife is your all-in-one platform to bring students and staff together. Built with passion and a vision for better campus life, CyLife makes it easy for clubs to thrive and events to connect people. Whether you're organizing, chatting, or sharing, CyLife is here to make every interaction seamless and fun.
+CyLife is a simple and powerful platform that helps students and staff connect through clubs and events. Whether you're organizing an event, chatting with your club, or keeping track of activities, CyLife makes it easy to stay involved and connected.
 
 ## Features
 
@@ -68,7 +68,7 @@ CyLife is your all-in-one platform to bring students and staff together. Built w
    ```bash
    java -jar Backend-0.0.1-SNAPSHOT.jar
    ```
-6. Test the application on the server or local deployment to ensure both frontend and backend connectivity.
+6. To test the backend without the frontend, you can use **Postman** to make API calls and verify functionality.
 
 ## POM.xml Configuration
 The `pom.xml` file is configured to use Java 17 and includes dependencies for:
@@ -97,7 +97,4 @@ The `spring-boot-maven-plugin` is included for packaging the application as a `.
 - Support advanced analytics for clubs and events.
 
 ## Contributors
-- **Gregory Chernyavskiy** and team.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+- **Gregory Chernyavskiy, Dhvani Mistry, Seth Clover and Charlie Wood.**
