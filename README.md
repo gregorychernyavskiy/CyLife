@@ -78,6 +78,3 @@ CyLife is a comprehensive platform designed to enhance collaboration and communi
 
 ## Contributors
 - **Gregory Chernyavskiy, Dhvani Mistry, Seth Clover and Charlie Wood.**
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
