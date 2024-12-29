@@ -1,6 +1,6 @@
 # CyLife
 
-CyLife is a comprehensive platform designed to enhance collaboration and communication within clubs, organizations, and events at educational institutions. The project aims to create a dynamic and user-friendly ecosystem for students and staff to interact, share, and manage activities efficiently.
+CyLife is a comprehensive platform designed to enhance collaboration and communication within clubs and events at educational institutions. The project aims to create a dynamic and user-friendly ecosystem for students and staff to interact, share, and manage activities efficiently.
 
 ## Features
 
