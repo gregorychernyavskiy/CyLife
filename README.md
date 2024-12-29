@@ -43,6 +43,8 @@ CyLife is a simple and powerful platform that helps students and staff connect t
 3. Set up a MySQL database and ensure the connection configuration matches the project requirements.
 
 ### Steps
+As the **Backend Lead** for CyLife, here is how to set up and run the backend:
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/gregorychernyavskiy/CyLife.git
@@ -97,4 +99,4 @@ The `spring-boot-maven-plugin` is included for packaging the application as a `.
 - Support advanced analytics for clubs and events.
 
 ## Contributors
-- **Gregory Chernyavskiy, Dhvani Mistry, Seth Clover and Charlie Wood.**
+- **Gregory Chernyavskiy (Backend Lead)**, Dhvani Mistry, Seth Clover, and Charlie Wood.
