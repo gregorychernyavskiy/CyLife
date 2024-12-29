@@ -99,4 +99,4 @@ The `spring-boot-maven-plugin` is included for packaging the application as a `.
 - Support advanced analytics for clubs and events.
 
 ## Contributors
-- **Gregory Chernyavskiy (Backend Lead)**, Dhvani Mistry, Seth Clover, and Charlie Wood.
+- **Gregory Chernyavskiy (Backend Lead), Dhvani Mistry (Frontend Lead), Seth Clover, and Charlie Wood.**
