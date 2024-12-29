@@ -5,11 +5,11 @@ CyLife is a comprehensive platform designed to enhance collaboration and communi
 ## Features
 
 ### Real-Time Communication
-- **Chat WebSocket**: Facilitates real-time communication within clubs or organizations. Only users who are members of a specific club can view and participate in its chat.
+- **Chat WebSocket**: Facilitates real-time communication within clubs. Only users who are members of a specific club can view and participate in its chat.
 - **Notification WebSocket**: Notifies users when a student joins a specific club and displays the chat history for that club.
 
 ### Event Management
-- Clubs and organizations can create and manage events.
+- Clubs can create and manage events.
 - Events automatically disappear after their scheduled time ends.
 
 ### User Management
@@ -33,8 +33,7 @@ CyLife is a comprehensive platform designed to enhance collaboration and communi
 ### Database Design
 - **User Table**: Stores user details including email, password, and type.
 - **Clubs Table**: Manages club information.
-- **Organizations Table**: Manages organization data.
-- **Events Table**: Connected to both Clubs and Organizations, allowing them to create and manage events.
+- **Events Table**: Connected to Clubs, allowing them to create and manage events.
 
 ## How to Run the Project
 
