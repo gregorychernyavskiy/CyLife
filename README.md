@@ -38,9 +38,9 @@ CyLife is a comprehensive platform designed to enhance collaboration and communi
 ## How to Run the Project
 
 ### Prerequisites
-1. Install Java 17 or later.
+1. Install Java 17.
 2. Install Apache Maven.
-3. Set up a MySQL database and configure connection details.
+3. Set up a MySQL database and ensure the connection configuration matches the project requirements.
 
 ### Steps
 1. Clone the repository:
@@ -51,15 +51,16 @@ CyLife is a comprehensive platform designed to enhance collaboration and communi
    ```bash
    cd CyLife/Backend
    ```
-3. Build the project using Maven:
+3. Ensure you are in the folder containing the `mvn` executable before building the project. Build the project using Maven:
    ```bash
    mvn clean install
    ```
-4. Run the application:
+   This will create the `.jar` file in the `target` folder.
+4. Run the application from the `target` folder:
    ```bash
    java -jar target/Backend-0.0.1-SNAPSHOT.jar
    ```
-5. Access the frontend by opening the appropriate entry point in your browser.
+5. Test the application on your local server or deployment server by accessing the appropriate endpoints.
 
 ## Development Workflow
 
